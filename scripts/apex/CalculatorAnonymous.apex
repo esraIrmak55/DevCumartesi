@@ -1,0 +1,10 @@
+decimal st1 =Calculator.dynamicCalulationMethod(10, 67.5, 'addition');
+system.debug( st1 );
+decimal st2 =Calculator.dynamicCalulationMethod(90, 60, 'subtraction');
+system.debug( st2 );
+decimal st3 =Calculator.dynamicCalulationMethod(8, 2, 'division');
+system.debug( st3 );
+decimal st4 =Calculator.dynamicCalulationMethod (6, 4, 'multiplication');
+system.debug( st4 );
+decimal st5 =Calculator.dynamicCalulationMethod (6, 4, 'abc');
+system.debug( st5 );

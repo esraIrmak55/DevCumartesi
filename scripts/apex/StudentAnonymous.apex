@@ -1,0 +1,14 @@
+Student s1 = new Student();
+s1.firstName = 'Soltan';
+s1.lastName = 'Bayjan';
+s1.classYear = 2022;
+s1.majorStream = 'Physics';
+string mg = s1.generateReport();
+system.debug(mg);
+Student s2 = new Student();
+s2.firstName = 'Angel';
+s2.lastName = 'Kakanova';
+s2.classYear = 2022;
+s2.majorStream = 'Electrical';
+string mg2 = s2.generateReport();
+system.debug(mg2);
